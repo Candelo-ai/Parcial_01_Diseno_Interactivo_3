@@ -4,22 +4,26 @@
   "description": "Primer parcial de la materia Diseño Interactivo 3, en el cual se evaluara los conceptos basicos de javascript, vscode, nodejs y git.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --collectCoverage=false --detectOpenHandles"
+    "test": "jest",
+    "lint": "standard",
+    "check": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github-corporativo:jdnunezfranco/Parcial_01_Diseno_Interactivo_3.git"
+    "url": "https://github.com/jdnunezfranco/Parcial_01_Diseno_Interactivo_3.git"
   },
   "author": "Julian David Nunez Franco",
   "license": "ISC",
-  "jest":{
+  "jest": {
     "testEnvironment": "node"
   },
-
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "devDependencies": {
     "jest": "^29.6.1",
     "standard": "^17.1.0"
   }
-
-
 }
