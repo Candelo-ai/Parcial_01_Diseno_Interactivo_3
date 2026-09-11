@@ -11,6 +11,10 @@
  * Funciones (argumentos, `return`)
  * Declaraciones `if`
  * Valores booleanos (`true`, `false`)
+* `for`
+* `&&`, `||`, `!`
+* Arrays
+
 
 2. Instalar Node y NPM. NPM se incluye con Node. <https://nodejs.org/en/download/>
 
